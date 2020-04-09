@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/playlist-scss-hooks/static/css/main.b805316a.chunk.css",
+    "main.js": "/playlist-scss-hooks/static/js/main.c9fe044d.chunk.js",
+    "main.js.map": "/playlist-scss-hooks/static/js/main.c9fe044d.chunk.js.map",
+    "runtime-main.js": "/playlist-scss-hooks/static/js/runtime-main.0e0b24de.js",
+    "runtime-main.js.map": "/playlist-scss-hooks/static/js/runtime-main.0e0b24de.js.map",
+    "static/css/2.f42e59c9.chunk.css": "/playlist-scss-hooks/static/css/2.f42e59c9.chunk.css",
+    "static/js/2.73785519.chunk.js": "/playlist-scss-hooks/static/js/2.73785519.chunk.js",
+    "static/js/2.73785519.chunk.js.map": "/playlist-scss-hooks/static/js/2.73785519.chunk.js.map",
+    "index.html": "/playlist-scss-hooks/index.html",
+    "precache-manifest.f4449fe6aa8126f84990552f584d9bfa.js": "/playlist-scss-hooks/precache-manifest.f4449fe6aa8126f84990552f584d9bfa.js",
+    "service-worker.js": "/playlist-scss-hooks/service-worker.js",
+    "static/css/2.f42e59c9.chunk.css.map": "/playlist-scss-hooks/static/css/2.f42e59c9.chunk.css.map",
+    "static/css/main.b805316a.chunk.css.map": "/playlist-scss-hooks/static/css/main.b805316a.chunk.css.map",
+    "static/js/2.73785519.chunk.js.LICENSE.txt": "/playlist-scss-hooks/static/js/2.73785519.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e0b24de.js",
+    "static/css/2.f42e59c9.chunk.css",
+    "static/js/2.73785519.chunk.js",
+    "static/css/main.b805316a.chunk.css",
+    "static/js/main.c9fe044d.chunk.js"
+  ]
+}
