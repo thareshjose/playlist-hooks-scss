@@ -1,0 +1,18 @@
+.player {
+	width: 645px !important;
+	margin-right: 40px;
+}
+
+.fb_iframe_widget_fluid_desktop span {
+	height: unset !important;
+}
+.fb_iframe_widget_fluid_desktop iframe {
+	height: 450px !important;
+}
+@media only screen and (max-width: 768px) {
+	.player {
+		width: 90% !important;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+}

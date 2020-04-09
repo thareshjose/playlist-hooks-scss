@@ -1,0 +1,96 @@
+@import '../../sass/variables.scss';
+
+.main-container {
+	background-color: $primary-background;
+	min-height: 100vh;
+	color: $primary-color;
+}
+
+%flex-shared {
+	display: flex;
+	justify-content: center;
+}
+
+.empty-page {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0px !important;
+	width: 100%;
+}
+
+.header-container {
+	padding: 100px 0 0;
+	@extend %flex-shared;
+
+	.video-input {
+		width: 40%;
+		font-size: 1em;
+		letter-spacing: 1px;
+		transition: width 0.5s ease;
+		padding: 10px;
+		margin-right: 5px;
+		border: 2px solid $content-background;
+		border-radius: 3px;
+		outline: none;
+		background-color: $content-background;
+		color: $primary-color;
+	}
+
+	.video-input:focus {
+		border: 2px solid rgb(55, 55, 78);
+	}
+
+	.add-button {
+		text-transform: uppercase;
+		cursor: pointer;
+		padding: 5px 7px;
+		border: 1px solid rgba(39, 199, 220, 0.4);
+		border-radius: 2px;
+		background-color: $content-background;
+		color: $primary-color;
+	}
+
+	.add-button:hover {
+		background-color: $hover-color;
+		border: 1px solid rgba(39, 199, 220, 1);
+	}
+}
+
+.loader-container {
+	@extend %flex-shared;
+	align-items: center;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.player-container {
+	@extend %flex-shared;
+	flex-direction: row;
+	justify-content: center;
+	margin-right: 20px;
+	margin-left: 15%;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 426px) {
+	.header-container {
+		width: 95%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.header-container {
+		padding: 20px 0 0;
+		.video-input {
+			width: 70%;
+		}
+	}
+
+	.player-container {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+}
