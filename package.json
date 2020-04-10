@@ -1,6 +1,6 @@
 {
 	"name": "playlist",
-	"homepage": "http://thareshjose.github.io/playlist-scss-hooks",
+	"homepage": "http://thareshjose.github.io/playlist",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
